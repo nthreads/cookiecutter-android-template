@@ -1,0 +1,128 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">186dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="activity_padding">16dp</dimen>
+    <dimen name="activity_padding_double">30dp</dimen>
+
+    <dimen name="card_elevation">1dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+    <dimen name="card_corner_radius_double">10dp</dimen>
+    <dimen name="event_card_radius">10dp</dimen>
+    <dimen name="card_content_padding">5dp</dimen>
+
+    <dimen name="size_heading_large_extra">32sp</dimen>
+    <dimen name="size_heading_large">20sp</dimen>
+
+    <dimen name="size_heading">18sp</dimen>
+
+    <dimen name="size_sub_heading">16sp</dimen>
+    <dimen name="size_sub_heading_bold">17sp</dimen>
+
+    <dimen name="size_content">14sp</dimen>
+    <dimen name="size_content_tiny">12sp</dimen>
+
+    <dimen name="offset_2">2dp</dimen>
+    <dimen name="offset_5">5dp</dimen>
+    <dimen name="offset_7">7dp</dimen>
+    <dimen name="offset_8">8dp</dimen>
+    <dimen name="offset_10">10dp</dimen>
+    <dimen name="offset_12">12dp</dimen>
+    <dimen name="offset_15">15dp</dimen>
+    <dimen name="offset_20">20dp</dimen>
+    <dimen name="offset_30">30dp</dimen>
+    <dimen name="offset_35">35dp</dimen>
+    <dimen name="offset_40">40dp</dimen>
+    <dimen name="offset_50">50dp</dimen>
+    <dimen name="offset_60">60dp</dimen>
+    <dimen name="offset_70">70dp</dimen>
+    <dimen name="offset_80">80dp</dimen>
+    <dimen name="offset_90">90dp</dimen>
+    <dimen name="offset_100">100dp</dimen>
+    <dimen name="offset_130">130dp</dimen>
+    <dimen name="offset_140">140dp</dimen>
+    <dimen name="offset_150">150dp</dimen>
+    <dimen name="offset_160">160dp</dimen>
+    <dimen name="offset_170">170dp</dimen>
+    <dimen name="offset_180">180dp</dimen>
+    <dimen name="offset_190">190dp</dimen>
+    <dimen name="offset_200">200dp</dimen>
+    <dimen name="offset_220">220dp</dimen>
+    <dimen name="offset_250">250dp</dimen>
+    <dimen name="offset_300">300dp</dimen>
+    <dimen name="offset_400">400dp</dimen>
+
+    <dimen name="map_height">400dp</dimen>
+
+    <dimen name="user_card_height">90dp</dimen>
+
+    <dimen name="card_smaller">120dp</dimen>
+    <dimen name="card_small">160dp</dimen>
+    <dimen name="card_medium">350dp</dimen>
+    <dimen name="card_large">400dp</dimen>
+
+    <dimen name="item_size_smaller">57dp</dimen>
+    <dimen name="item_size_small">100dp</dimen>
+    <dimen name="item_size_medium">120dp</dimen>
+    <dimen name="item_size_large">150dp</dimen>
+    <dimen name="item_size_xlarge">180dp</dimen>
+    <dimen name="item_size_xx_medium_large">200dp</dimen>
+    <dimen name="item_size_xxlarge">215dp</dimen>
+    <dimen name="item_size_xxx">250dp</dimen>
+    <dimen name="item_size_xxxlarge">350dp</dimen>
+    <dimen name="item_size_xxxxlarge">450dp</dimen>
+
+    <dimen name="avatar_size_tiniest">30dp</dimen>
+    <dimen name="avatar_size_tiny">50dp</dimen>
+    <dimen name="avatar_size_small">70dp</dimen>
+    <dimen name="avatar_size_medium">100dp</dimen>
+    <dimen name="avatar_size_large">180dp</dimen>
+
+    <dimen name="chart_tiniest">130dp</dimen>
+    <dimen name="chart_tiny">200dp</dimen>
+    <dimen name="chart_small">300dp</dimen>
+    <dimen name="chart_medium">350dp</dimen>
+    <dimen name="chart_large">400dp</dimen>
+    <dimen name="chart_xlarge">550dp</dimen>
+
+    <dimen name="dp_size_small">70dp</dimen>
+    <dimen name="dp_size_large">150dp</dimen>
+
+    <dimen name="button_smaller">30dp</dimen>
+    <dimen name="button_small">35dp</dimen>
+    <dimen name="button_medium">45dp</dimen>
+    <dimen name="button_large">50dp</dimen>
+    <dimen name="streak_size">35dp</dimen>
+
+    <dimen name="fontPaddingTop">-2dp</dimen>
+    <dimen name="fontPaddingBottom">5dp</dimen>
+    <dimen name="fontPaddingStart">0dp</dimen>
+    <dimen name="fontPaddingEnd">0dp</dimen>
+
+    <dimen name="fontMarginTop">-1.5dp</dimen>
+    <dimen name="fontMarginBottom">0dp</dimen>
+    <dimen name="fontMarginStart">0dp</dimen>
+    <dimen name="fontMarginEnd">0dp</dimen>
+
+    <dimen name="card_radius_1x">5dp</dimen>
+    <dimen name="card_radius_1.5x">8dp</dimen>
+    <dimen name="card_radius_2x">10dp</dimen>
+    <dimen name="card_radius_3x">10dp</dimen>
+    <dimen name="card_radius_4x">20dp</dimen>
+
+    <dimen name="card_padding">5dp</dimen>
+    <dimen name="card_padding_double">10dp</dimen>
+    <dimen name="card_padding_tripe">15dp</dimen>
+
+    <dimen name="radius_button">15dp</dimen>
+    <dimen name="radius_button_x">25dp</dimen>
+
+    <dimen name="radius_edittext">10dp</dimen>
+    <dimen name="padding_edittext">10dp</dimen>
+
+</resources>

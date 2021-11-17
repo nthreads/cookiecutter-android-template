@@ -1,0 +1,26 @@
+{  
+    "default_context": {
+        "full_name": "Nauman Zubair",
+        "email": "nauman@csms.ae",
+        "git_username": "nauman"
+    },
+    "app_name": "Hello World",
+    "repo_name": "{{ cookiecutter.app_name | title | replace(' ', '') }}",
+    "full_package_namespace": "com.csms.{{ cookiecutter.app_name | lower | replace(' ', '') }}",
+    "package_path": "{{ cookiecutter.repo_name | lower }}",
+    "author" : "Nauman Zubair",
+    "min_sdk" : 21,
+    "target_sdk" : 30,
+
+    "create_app_base" : "y",
+    "create_fb_remote_config" : "y",
+    "create_location_utils" : "y",
+    "create_biometric" : "y",
+
+
+    "_copy_without_render": [
+        "gradlew",
+        "gradlew.bat",
+        "gradle/wrapper/gradle-wrapper.jar"
+    ]
+}

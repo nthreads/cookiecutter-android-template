@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="err_invalid_email">الإيميل المستخدم غير صحيح</string>
+    <string name="err_invalid_password">كلمة المرور غير صحيحة</string>
+    <string name="err_location_not_accessible">لا يمكن الدخول إلى الموقع، يرجى التأكد من تفعيل الموقع.</string>
+    <string name="err_went_wrong">حدث خطأ ما. يرجى إعادة المحاولة.</string>
+    <string name="lang_arabic">اللغة</string>
+    <string name="lang_arabic_en">العربية</string>
+    <string name="lang_english">الإنجليزية</string>
+    <string name="lang_english_ar">الإنجليزية</string>
+    <string name="lbl_cancel">إلغاء</string>
+    <string name="lbl_change_language">تغيير اللغة</string>
+    <string name="lbl_change_language_ar">تغيير اللغة إلى العربية</string>
+    <string name="lbl_change_language_en">تغيير اللغة إلى الانكليزية</string>
+    <string name="lbl_choose_language_en">اختر اللغة</string>
+    <string name="lbl_error">هناك خطأ</string>
+    <string name="lbl_later">لاحقاً</string>
+    <string name="lbl_location">الموقع</string>
+    <string name="lbl_network_error">خطأ في الشبكة</string>
+    <string name="lbl_ok">موافق</string>
+    <string name="lbl_record_video">تسجيل فيديو</string>
+    <string name="lbl_retry">إعادة المحاولة</string>
+    <string name="lbl_settings">الإعدادات</string>
+    <string name="lbl_slide_to_cancel">اسحب للإلغاء</string>
+    <string name="lbl_take_photo">التقط صورة</string>
+    <string name="lbl_update">تحديث</string>
+    <string name="msg_update_app">يرجى تحديث التطبيق إلى الإصدار الأخير.</string>
+    <string name="permission_location_rationale">يرجى السماح بالوصول إلى الموقع للحصول على نتائج دقيقة.</string>
+    <string name="permission_user_location">يرجى السماح بالوصول إلى الموقع للحصول على نتائج دقيقة.</string>
+    <string name="title_update">يرجى تحديث التطبيق.</string>
+    <string name="toast_connection_error">خطأ في الاتصال</string>
+    <string name="toast_err_forbidden_req">طلب محظور</string>
+    <string name="toast_err_internal_server">خطأ في المخدم الداخلي</string>
+    <string name="toast_err_unauthorized">غير مصرح به</string>
+    <string name="toast_network_error">خطأ في الشبكة</string>
+    <string name="toast_time_out">نفذ الوقت المتاح</string>
+    <string name="err_invalid_name">Invalid Name</string>
+</resources>

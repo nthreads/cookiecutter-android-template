@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseAppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="largeHeadingFont">@font/bold_ar</item>
+        <item name="largeHeadingBoldFont">@font/extrabold_ar</item>
+
+        <item name="headingFont">@font/bold_ar</item>
+        <item name="headingBoldFont">@font/bold_ar</item>
+
+        <item name="subHeadingFont">@font/regular_ar</item>
+        <item name="subHeadingBoldFont">@font/regular_ar</item>
+
+        <item name="contentFont">@font/light_ar</item>
+        <item name="contentBoldFont">@font/regular_ar</item>
+
+    </style>
+</resources>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="false"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/offset_10"
+        android:paddingTop="@dimen/offset_15"
+        android:paddingRight="@dimen/offset_10"
+        android:paddingBottom="@dimen/offset_15">
+
+        <TextView
+            style="@style/ToolbarSubHeadingBold"
+            android:layout_alignParentStart="true"
+            android:text="@string/lbl_choose_language_en" />
+
+        <TextView
+            style="@style/ToolbarSubHeadingBoldAr"
+            android:layout_alignParentEnd="true"
+            android:text="@string/lbl_choose_language_ar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="@string/lang_english" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="@string/lang_english_ar" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutArabic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="@string/lang_arabic_en" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="@string/lang_arabic" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutUrdu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="Urdu" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="اردو" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutFrench"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="French" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="Français" />
+    </RelativeLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="Hindi" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="हिंदी" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutTamil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="Tamil" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="தமிழ்மொழி" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutMalayalam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="Malayalam" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="മലയാളം" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutBengali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="Bengali" />
+
+        <TextView
+            style="@style/SubHeadingAr"
+            android:layout_alignParentEnd="true"
+            android:text="বাঙ্গালি" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/colorGreyLighter" />
+
+    <RelativeLayout
+        android:id="@+id/layoutChineseSimplified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        android:layoutDirection="ltr"
+        android:padding="@dimen/offset_15">
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentStart="true"
+            android:text="Chinese" />
+
+        <TextView
+            style="@style/SubHeading"
+            android:layout_alignParentEnd="true"
+            android:text="中文" />
+    </RelativeLayout>
+</LinearLayout>

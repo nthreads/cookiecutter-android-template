@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomFontFamily">
+        <attr name="largeHeadingFont" format="reference"/>
+        <attr name="largeHeadingBoldFont" format="reference"/>
+
+        <attr name="headingFont" format="reference"/>
+        <attr name="headingBoldFont" format="reference"/>
+
+        <attr name="subHeadingFont" format="reference"/>
+        <attr name="subHeadingBoldFont" format="reference"/>
+
+        <attr name="contentFont" format="reference"/>
+        <attr name="contentBoldFont" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomView">
+
+        <!-- ** This enum is tightly coupled with the enum in FontManager! ** -->
+        <!-- ** Make sure their orders stay the same ** -->
+        <attr name="custom_font">
+
+            <enum name="HelveticaNeueThin" value="0" />
+            <enum name="HelveticaNeueUltraLight" value="1" />
+            <enum name="HelveticaNeueLight" value="2" />
+            <enum name="HelveticaNeueReg" value="3" />
+            <enum name="HelveticaNeueBold" value="4" />
+            <enum name="HelveticaNeueHeavy" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FragmentCardView">
+
+
+        <attr name="mOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="mSpanCount" format="integer" />
+        <attr name="mLayoutManager" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="grid" value="1" />
+            <enum name="staggered" value="2" />
+        </attr>
+        <attr name="mItemWidth" format="dimension"/>
+        <attr name="mItemHeight" format="dimension"/>
+        <attr name="showBottomSheet" format="boolean"/>
+
+        <attr name="headingText" format="string"/>
+        <attr name="headingTextColor" format="integer"/>
+
+        <attr name="mCards" format="enum">
+            <enum name="information" value="0"/>
+            <enum name="travel" value="1"/>
+            <enum name="guideline" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FragmentStub">
+        <attr name="stubTitle" format="string" />
+        <attr name="stubMessage" format="string" />
+        <attr name="stubImage" format="reference" />
+        <attr name="stubCanRetry" format="boolean" />
+        <attr name="stubCanRetryLabel" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomMaskedEditText">
+        <attr name="mask" format="string" />
+        <attr name="allowed_chars" format="string" />
+        <attr name="denied_chars" format="string" />
+        <attr name="char_representation" format="string" />
+        <attr name="keep_hint" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FragmentChartAttributes">
+        <attr name="title" format="string" />
+        <attr name="titleColor" format="integer" />
+        <attr name="shadowBarColor" format="integer" />
+        <attr name="description" format="string" />
+        <attr name="isAllCaps" format="boolean" />
+        <attr name="isHorizontal" format="boolean" />
+        <attr name="hasDynamicLabels" format="boolean" />
+        <attr name="hasLabelsOutside" format="boolean" />
+        <attr name="hasLabels" format="boolean" />
+        <attr name="hasLabelForSelected" format="boolean" />
+        <attr name="showValueInside" format="boolean" />
+        <attr name="labels" format="reference" />
+        <attr name="subLabels" format="reference" />
+        <attr name="hasClickEvent" format="boolean" />
+        <attr name="minEntries" format="integer" />
+        <attr name="maxEntries" format="integer" />
+        <attr name="tag" format="string" />
+        <attr name="hasClickEventToShowTweets" format="boolean" />
+        <attr name="hasOptionsMenu" format="boolean" />
+        <attr name="hasAxes" format="boolean" />
+        <attr name="hasShadowBars" format="boolean" />
+        <attr name="cloudLabelColor" format="integer" />
+
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+
+        <attr name="hasCenterIcon" format="boolean"/>
+        <attr name="centerIcons" format="reference"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefreshView">
+        <attr name="type" format="enum">
+            <enum name="sun" value="0" />
+            <enum name="plane" value="1" />
+            <enum name="boat" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

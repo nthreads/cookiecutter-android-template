@@ -1,0 +1,6 @@
+rootProject.name='{{ cookiecutter.repo_name }}'
+include ':app'
+
+{% if cookiecutter.create_app_base == "y" -%}
+  include ':app-base'
+{% endif %}

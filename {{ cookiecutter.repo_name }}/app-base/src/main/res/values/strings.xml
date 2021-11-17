@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="toast_err_unauthorized">Your email and/or password do not match</string>
+    <string name="toast_err_forbidden_req">Forbidden request error</string>
+    <string name="toast_err_internal_server">Internal server error, please retry later.</string>
+    <string name="toast_connection_error">Unable to connect to API endpoint.</string>
+    <string name="toast_network_error">Network Error, Please Check Your Network Connection</string>
+    <string name="toast_time_out">Connection Timeout, Please Try Again</string>
+    <string name="err_went_wrong">Unable to connect to server. Please try again.</string>
+    <string name="lbl_retry">Retry</string>
+    <string name="lbl_change_language">Choose Language</string>
+    <string name="lbl_change_language_en" translatable="false">Change Language</string>
+    <string name="lbl_change_language_ar" translatable="false">تغيير اللغة</string>
+    <string name="lbl_choose_language_en" translatable="false">Choose Language</string>
+    <string name="lbl_choose_language_ar" translatable="false"></string>
+    <string name="lang_english" translatable="false">English</string>
+    <string name="lang_english_ar" translatable="false">الإنجليزية</string>
+    <string name="lang_arabic" translatable="false">العربية</string>
+    <string name="lang_arabic_en" translatable="false">Arabic</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_network_error">Network Error</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_error">Error</string>
+    <string name="err_invalid_email">Invalid Email</string>
+    <string name="err_invalid_password">Invalid Password</string>
+    <string name="err_invalid_name">Invalid Name</string>
+    <string name="permission_user_location">Please enable your location to get accurate results.\n\n1. Select settings and <u>Allow in settings</u>\n2. Allow all the time</string>
+    <string name="permission_location_rationale">Please enable your location to get accurate results.\n\n Select\n\n\t1. Settings\n\t2. Permission\n\t3. Location\n\t4. Allow all the time</string>
+    <string name="err_location_not_accessible">Location is not accessible, make sure location is on.</string>
+    <string name="lbl_location">Location</string>
+    <string name="lbl_later">Later</string>
+    <string name="lbl_update">Update</string>
+    <string name="title_update">Update Required</string>
+    <string name="msg_update_app">Please update app to latest version.</string>
+    <string name="lbl_take_photo">Take A Photo</string>
+    <string name="lbl_record_video">Record Video</string>
+    <string name="lbl_slide_to_cancel">Slide to Cancel</string>
+</resources>

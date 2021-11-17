@@ -1,0 +1,92 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion versions.compileSdk
+
+    defaultConfig {
+        
+        minSdkVersion versions.minSdk
+        targetSdkVersion versions.targetSdk
+
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Kotlin
+    api deps.kotlin.ktx
+    //api deps.kotlin.stdlib7
+    api deps.kotlin.stdlib8
+    
+
+    //Support libraries
+    api deps.androidx.appCompat
+    api deps.androidx.materialDesign
+    api deps.androidx.constraintLayout
+    api deps.androidx.recyclerView
+    api deps.androidx.cardView
+    
+    api deps.androidx.swipeToRefresh
+
+    //Retrofit
+    api deps.retrofit.retrofitLib
+    api deps.retrofit.gsonConverter
+    api deps.retrofit.rxJavaAdapter
+    api deps.retrofit.loggingInterceptor
+
+    //Google
+    api deps.google.gson
+
+    {% if cookiecutter.create_location_utils == "y" -%}
+    //Google Map
+    api deps.google.maps
+    api deps.google.mapUtils
+    api deps.google.location
+    {% endif %}
+
+    {% if cookiecutter.create_fb_remote_config == "y" -%}
+    api deps.google.fireBaseRemoteConfig
+    {% endif %}
+    
+    // RxAndroid : AndroidSchedulers
+    api deps.reactivex.rxAndroid
+    api deps.reactivex.rxBinding
+
+    // For Navigation Architecture Component
+    api deps.androidx.navigationComp
+    api deps.androidx.navigationKtx
+    api deps.additional.componentsManager
+
+    {% if cookiecutter.create_biometric == "y" -%}
+    api deps.androidx.biometric
+    {% endif %}
+
+    //Additional
+    api deps.additional.glide
+    annotationProcessor deps.additional.glideAnnotationProcessor
+    
+    // for run time permissions
+    api deps.additional.dexterRuntimePerm
+    
+    api deps.additional.dateTimePicker
+}
+

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/offset_10"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/SubHeadingBold"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorWhite"
+                android:padding="@dimen/offset_15"
+                tools:text="@string/toast_time_out" />
+
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvMessage"
+                    style="@style/SubHeading"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="@dimen/offset_20"
+                    tools:text="@string/toast_time_out" />
+            </RelativeLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="@dimen/offset_10"
+            android:layout_marginEnd="@dimen/offset_10"
+            android:layout_marginBottom="@dimen/offset_10"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/btnNegative"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/offset_10"
+                android:layout_marginEnd="@dimen/offset_5"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:minWidth="@dimen/offset_100"
+                android:minHeight="@dimen/offset_40"
+                android:text="@string/lbl_cancel" />
+
+            <TextView
+                android:id="@+id/btnPositive"
+                style="@style/ButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/offset_5"
+                android:layout_marginEnd="@dimen/offset_10"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:minWidth="@dimen/offset_100"
+                android:minHeight="@dimen/offset_40"
+                android:text="@string/lbl_ok" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

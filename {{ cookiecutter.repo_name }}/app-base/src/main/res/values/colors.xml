@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#855BD1</color>
+    <color name="colorAccent">#087E8B</color>
+
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorAppBg">#F5F5F5</color>
+    <color name="colorSecondaryAppBg">#ECECEC</color>
+
+    <color name="colorGreyDark">#101010</color>
+    <color name="colorGrey">#575757</color>
+    <color name="colorGreyButton">#101010</color>
+    <color name="colorGreyLight">#939393</color>
+    <color name="colorGreyLighter">#C3C3C3</color>
+    <color name="colorGreyLightest">#E2E2E2</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteLighter">#F2F2F2</color>
+    <color name="colorWhiteLightest">#F9F9F9</color>
+
+    <color name="colorRed">#E60124</color>
+    <color name="colorAppOrange">#FF5A5F</color>
+    <color name="colorPurpleLight">#40B693FA</color>
+    <color name="colorBlue">#7CEDFC</color>
+    <color name="colorGreen">#31C983</color>
+    <color name="colorYellow">#F0B530</color>
+
+    <color name="placeholder_bg">#dddddd</color>
+
+</resources>
