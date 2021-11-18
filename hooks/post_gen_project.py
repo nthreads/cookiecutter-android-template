@@ -17,9 +17,9 @@ create_app_base         = '{{cookiecutter.create_app_base}}' == 'y'
 create_fb_remote_config = '{{cookiecutter.create_fb_remote_config}}' == 'y'
 create_location_utils   = '{{cookiecutter.create_location_utils}}' == 'y'
 
-is_mac = ''
-is_linux = ''
-is_windows = ''
+is_mac = sys.platform == 'darwin'
+is_linux = sys.platform == 'linux' or sys.platform == 'linux2'
+is_windows = sys.platform == 'win32'
 
 #===== Functions =====
 def remove(filepath):
@@ -35,8 +35,12 @@ def initial_commit():
 
 def open_android_studio() :
     print('\n\n%s Opening in Android Studio...' % repo_name)
-
-    subprocess.run(["open", "-a", "/Applications/Android Studio.app", global_path])
+    if is_mac:
+        subprocess.run(["open", "-a", "/Applications/Android Studio.app", global_path])
+    elif is_windows:
+        print("Its windows")
+    elif is_linux:
+        print("Its linux")
 
 def remove_not_files_directories() :
     ab_main_path = 'app-base/src/main'
