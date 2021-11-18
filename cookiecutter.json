@@ -1,12 +1,12 @@
 {  
     "default_context": {
         "full_name": "Nauman Zubair",
-        "email": "nauman@csms.ae",
+        "email": "nauman@nthreads.ae",
         "git_username": "nauman"
     },
     "app_name": "Hello World",
     "repo_name": "{{ cookiecutter.app_name | title | replace(' ', '') }}",
-    "full_package_namespace": "com.csms.{{ cookiecutter.app_name | lower | replace(' ', '') }}",
+    "full_package_namespace": "com.nthreads.{{ cookiecutter.app_name | lower | replace(' ', '') }}",
     "package_path": "{{ cookiecutter.repo_name | lower }}",
     "author" : "Nauman Zubair",
     "min_sdk" : 21,

@@ -17,6 +17,10 @@ create_app_base         = '{{cookiecutter.create_app_base}}' == 'y'
 create_fb_remote_config = '{{cookiecutter.create_fb_remote_config}}' == 'y'
 create_location_utils   = '{{cookiecutter.create_location_utils}}' == 'y'
 
+is_mac = ''
+is_linux = ''
+is_windows = ''
+
 #===== Functions =====
 def remove(filepath):
     if os.path.isfile(filepath):
@@ -36,7 +40,7 @@ def open_android_studio() :
 
 def remove_not_files_directories() :
     ab_main_path = 'app-base/src/main'
-    ab_pkg_path = 'java/com/csms/base'
+    ab_pkg_path = 'java/com/nthreads/base'
 
     if not create_app_base:
         print("---> Removing app base...")
@@ -64,7 +68,7 @@ if os.path.exists(global_path) & str(global_path).endswith(str(repo_name)):
 
     open_android_studio()    
     
-    # initial_commit()
+    initial_commit()
 
     # exits with status 1 to indicate failure
     sys.exit(0)
