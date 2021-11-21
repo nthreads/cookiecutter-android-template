@@ -1,6 +1,6 @@
 # Android Boilerplate template using Cookiecutter
 
-A [cookiecutter](https://github.com/cookiecutter/cookiecutter) :cookie: template for bootstrapping new Android Tutorial projects
+A [cookiecutter](https://github.com/cookiecutter/cookiecutter) :cookie: template for bootstrapping new Android projects
 
 ## Usage
 
