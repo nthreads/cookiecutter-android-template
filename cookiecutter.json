@@ -1,9 +1,4 @@
-{  
-    "default_context": {
-        "full_name": "Nauman Zubair",
-        "email": "nauman@nthreads.ae",
-        "git_username": "nauman"
-    },
+{      
     "app_name": "Hello World",
     "repo_name": "{{ cookiecutter.app_name | title | replace(' ', '') }}",
     "full_package_namespace": "com.nthreads.{{ cookiecutter.app_name | lower | replace(' ', '') }}",
